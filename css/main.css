@@ -135,8 +135,13 @@ h3 {
 #cols {
 	clear: both;
 	margin: 0 0 45px;
-/*	border-bottom: 3px double #ddd;
-	background: url(../images/shade.png) no-repeat center bottom;*/
+	background-color: #ffffff;
+/*	background: url(../images/Sun_Run.png) no-repeat;
+	height: 800px;
+	width: 100%;
+	opacity:0.5;
+	filter:alpha(opacity=90); */
+	
 }
 .col { 
 	float: left; 
@@ -250,6 +255,15 @@ h3 {
 }
 
 /* side twitter box */
+.boxPoster {
+	height: 500px;
+	width: 200px;
+	float: right;
+}
+.boxPoster img {
+	max-height: 100%;
+	max-width: 100%;
+}
 .boxtop {
 	background: url(../images/boxtop.png) no-repeat; 
 	padding: 4px 0;
