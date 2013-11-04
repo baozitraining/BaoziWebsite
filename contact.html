@@ -28,7 +28,7 @@
 	<script type="text/javascript" src="js/pitch.js"></script>
 	<script type="text/javascript">
 		Counter(new Date("Oct 20 2012 12:00:00 UTC"));
-		var done_message = "期待与你的交流"; 
+		var done_message = "我们的新邮箱: baozitraining@outlook.com"; 
 	</script>
 
 	<script type="text/javascript" src="js/google-analytics.js"></script>
@@ -37,9 +37,18 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
 	<link rel="stylesheet" href="images/fancybox/jquery.fancybox-1.3.2.css" type="text/css" media="screen" />
 </head>
+
 <body>
-	<div id="content">
-	
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  	var js, fjs = d.getElementsByTagName(s)[0];
+  	if (d.getElementById(id)) return;
+  	js = d.createElement(s); js.id = id;
+  	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div id="content">	
 		<!-- top -->
 		<div id="top">
 		<h1 id="logo"><img src="images/baozilogo.png"/></h1>
@@ -56,7 +65,7 @@
 		
 		<!-- pitch -->
 		<div id="pitch">
-			<h2 id="hello">亲，不要害羞~</h2>
+			<h2 id="hello">亲，不要害羞， 关注我们~</h2>
 			<p id="countdown"></p>
 		</div>
 		<!-- /pitch -->
@@ -64,14 +73,23 @@
         <!-- main (left side) -->		
 		<div id="main">
 			<h3>联系我们</h3>
-        <!--    <a href="mailto:baozi.training@gmail.com?Subject=Questions%20about%20Baozi%20Traning" target="_top">Send Email</a> -->
+        <!--    <a href="mailto:baozitraining@outlook.com?Subject=Questions%20about%20Baozi%20Traning" target="_top">Send Email</a> -->
             <p><strong>邮箱： 
                 <br>
-                baozi.training@gmail.com</strong></p>
+                baozitraining@outlook.com</strong></p>
             <p><strong>关注我们：<wb:follow-button uid="3629139725" type="red_3" width="100%" height="24" ></wb:follow-button></strong></p>
+        	<p><strong>Like us on Facebook：<a href="https://www.facebook.com/baozitraining">Baozi Training </a></strong></p>
+ 	       	
+ 	       	<!-- TODO: facebook like button didn't work. -->
+        	<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-colorscheme="dark" data-layout="standard" data-action="like" data-show-faces="false" data-send="false"></div>
+        	<!-- <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;width&amp;height=35&amp;colorscheme=dark&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe> -->
 			<p><strong>微信号：baozitraining </strong></p>
             <img src="images/baoziweixinqr.jpg" width="129" height="129"/>
+            
+            <p><h3>友情链接</h3></p>
+            <p><strong><a href="http://cssauw.org/">华盛顿大学中国学生学者联谊会</a></strong></p>
 		</div>
+		
 		<!-- /main (left side) -->
         
         
