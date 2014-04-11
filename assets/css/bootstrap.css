@@ -657,6 +657,7 @@ p {
   font-size: 21px;
   font-weight: 200;
   line-height: 30px;
+  font-family: Georgia, serif, Gadget, "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
 }
 
 small {
@@ -6098,7 +6099,7 @@ a.badge:focus {
   right: 0;
   bottom: 0;
   left: 0;
-  max-width: 600px;
+  max-width: 700px;
   padding: 15px;
   background: #333333;
   background: rgba(0, 0, 0, 0.75);
