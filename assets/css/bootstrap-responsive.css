@@ -122,6 +122,16 @@
   .row:after {
     clear: both;
   }
+  .row-2 {
+    margin-left: 0px;
+  }
+  .row-2:before,
+  .row-2:after {
+    display: table;
+    line-height: 0;
+    content: ""; 
+  }
+
   [class*="span"] {
     float: left;
     min-height: 1px;
