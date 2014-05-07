@@ -1,3 +1,8 @@
 .interviewer {
-    height: 320px;
+    height:300px;
+	font-family: Georgia, serif, Gadget, "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+}
+
+.btn {
+	font-family: Georgia, serif, Gadget, "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
 }

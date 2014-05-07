@@ -767,7 +767,7 @@ h3 {
 }
 
 h1 {
-  font-size: 38.5px;
+  font-size: 34px;
 }
 
 h2 {
@@ -5982,6 +5982,7 @@ a.badge:focus {
   position: relative;
   width: 100%;
   overflow: hidden;
+  height:370px;
 }
 
 .carousel-inner > .item {
