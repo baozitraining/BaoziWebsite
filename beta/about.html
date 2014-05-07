@@ -10,9 +10,11 @@
 
     <!-- Le styles -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../assets/css/layout.css" rel="stylesheet">
-
+    <link href="../css/about.css" rel="stylesheet">
+    <!--link rel="stylesheet" type="text/css" href="../css/main.css" media="screen" /-->
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -22,7 +24,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png"
     <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
 
@@ -79,12 +81,11 @@
           <img src="../images/backgroud/Golden_Park.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>IT 面试不再怕，包子帮你圆个梦！</h1>
-              <p class="lead">感谢大家对包子第二期宣讲的支持，第三期火爆报名中！</p>
-              <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+              <h1>一流，专业，年轻，富有激情的面试官！</h1>
+              <p class="lead">这里是你我梦想开始的地方, 让我们助你一臂之力！</p>
             </div>
           </div>
-        </div>
+        </div><!--end of item active-->
         <div class="item">
           <img src="../images/backgroud/Seattle_Downtown.jpg" alt="">
           <div class="container">
@@ -94,7 +95,7 @@
               <a class="btn btn-large btn-primary" href="#">Learn more</a>
             </div>
           </div>
-        </div>
+        </div><!--end of item-->
         <div class="item">
           <img src="../images/backgroud/Space_needle.jpg" alt="">
           <div class="container">
@@ -104,81 +105,101 @@
               <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
             </div>
           </div>
-        </div>
-      </div>
+        </div> <!--end of item-->
+      </div><!--end of carousel-inner-->
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div><!-- /.carousel -->
-
-
+    </div><!--end of  myCarousel -->
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
     <div class="container marketing">
+        <div class="row-2"> 
+            <h3>关于我们</h3> 
+            <p>我们年轻——绝大部分参与讲座和模拟面试的朋友都是毕业五年之内的年轻人，共同的语言，相通的理解。</p>
+            <p>我们专业——每一位走进知名IT公司的朋友都曾经历过数次面试考验，同时在工作中积攒了丰富的面试他人的经验。</p>
+            <p>我们热情——作为中国的年轻IT人，希望更多年轻的朋友能早日拿到理想的Offer，我们愿意助你一臂之力。</p>
+            <p><strong>最后，我们，为了同一个目标，聚在一起。这是故事的开始，希望她越来越精彩。</strong></p>
+        </div>
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>课程1 信息分享</h2>
-          <p class="detail">全面概括北美IT行业招聘、求职现状，详细介绍面试流程，技巧以及注意事项。本期将特别关注在校学生如何应对Intern的面试。特邀嘉宾讲座，Jack Shen, Derrick Ji, Amazon工程师于大家分享准备Inern面试经验。</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>课程2 知识点详解</h2>
-          <p class="detail">细致总结面试必须掌握的数据结构与基本算法，技术题目一题多解，帮助你了解面试官考察的角度，避免面试者常犯的错误。帮助你用最少的时间，高效的完成面试的前期准备。分为『上、下』两个session，针对关键知识点进行地毯式梳理。</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>课程3 模拟面试</h2>
-          <p class="detail">超值模拟面试package，包括一次phone screen和两次in-person interview。模拟面试官均为一线IT公司的工程师，具备丰富的技术面试经验。在面试后，我们提供详实的feedback（绝大部分公司在面试后不提供feedback)，帮助你找到不足之处，为真正的面试做好准备。</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
-
-      <!-- START THE FEATURETTES -->
-      <!--
-      <hr class="featurette-divider">
-
-      <div class="featurette">
-        <img class="featurette-image pull-right" src="assets/img/examples/browser-icon-chrome.png">
-        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="featurette">
-        <img class="featurette-image pull-left" src="assets/img/examples/browser-icon-firefox.png">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="featurette">
-        <img class="featurette-image pull-right" src="assets/img/examples/browser-icon-safari.png">
-        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-
-      <hr class="featurette-divider">
-        -->
-      <!-- /END THE FEATURETTES -->
-       
         <hr>
 
+        <div class="row">
+            <div class="span3">
+                <div class="interviewer">
+                    <h3>Xiaowen Ding</h3>
+                    <i><b>USC</b></i><br>
+                    <img src="../images/interviewers/dingxiaowen.jpg" alt="Image" />
+                    <p>包子IT面试Advisor。毕业于华盛顿大学Foster商学院，现在南加州大学Marshall商学院就读。本科期间曾在Amazon，PwC等顶级公司实习并成功拿到offer。拥有丰富的界业面试经验。</p>
+                </div>
+                <p><a class="btn" href="http://www.linkedin.com/pub/eva-xiaowen-ding/31/a45/ba3">链接</a></p>
+            </div>
+            <div class="span3">
+                <div class="interviewer" >
+                    <h3>Xiaoyu Shi</h3>
+                    <i><b>Microsoft</b></i><br>
+                    <img src="../images/interviewers/xiaoyu.jpg" alt="Image"/>
+                    <p>包子IT面试联合创始人。在Amazon就职期间，曾面试30+ candidates。现在微软Monitoring Platform组。 曾任Alberta大学<a href="https://www.cs.ualberta.ca/research/research-areas/database-systems/xiaoyu-shi">CSGSA VP</a>，浙江大学计算机学院学生会副主席。 </p>
+                </div>
+                <p><a class="btn" href="http://www.linkedin.com/in/xiaoyushi">链接</a></p>
+            </div><!-- /.span3 -->
+            <div class="span3">
+                <div class="interviewer" >
+                    <h3>Xiao Liang</h3>
+                    <i><b>Amazon</b></i><br>
+                    <img src="../images/interviewers/liangxiao.jpg" alt="Image"/>
+                    <p>包子IT面试联合创始人。现就职于亚马逊，曾在supply chain、AWS等部门从事业务服务开发，拥有大量技术面试经验。IT/留学咨询经历丰富，兼职<a href="http://www.laoluo.com.cn/liuxue/consultingteam2.html">老罗英语培训留学顾问</a>。</p>
+                </div>
+                <p><a class="btn" href="http://www.linkedin.com/profile/view?id=90472710 ">链接</a></p> 
+            </div><!-- /.span3 -->
+            <div class="span3">
+                <div class="interviewer" >
+                    <h3>Hong Hong</h3>
+                    <i><b>Microsoft</b></i><br>
+                    <img src="../images/interviewers/honghong.jpg" alt="Image"/>
+                    <p>包子IT面试联合创始人。现就职于微软Visual C++研发部门，微软C++开源项目的主要贡献者之一，具有丰富高性能类库设计经验。参与C++并行库标准的制定与实现。具有丰富的计算机理论辅导经验，多次职场面试与被面试经验。</p>
+                </div>
+                <p><a class="btn" href="http://www.linkedin.com/pub/hong-hong/b/796/276">链接</a></p>
+            </div><!-- /.span3 -->
+            <div class="span3">
+                <div class="interviewer" >
+                    <h3>Si Chang</h3>
+                    <i><b>Amazon</b></i><br>
+                    <img src="../images/interviewers/sichang.jpg" alt="Image"/>
+                    <p>包子IT面试联合创始人。现就职于亚马逊Fulfillment Center Inventory Platform Services组，拥有丰富的面试经验，对于算法，数据库和大规模web services有着浓厚的兴趣。</p>
+                    <p>爱好技术，乒乓球。</p>
+                </div>
+                <p><a class="btn" href="http://www.linkedin.com/profile/view?id=102478000">链接</a></p>
+            </div><!-- /.span3 -->
+            <div class="span3">
+                <div class="interviewer" >
+                    <h3>Shan Ye</h3>
+                    <i><b>Microsoft</b></i><br>
+                    <img src="../images/interviewers/yeshan.jpg" alt="Image"/>
+                    <p>包子IT面试联合创始人。现就职于微软Order Service研发部门, 曾在Amazon Featured Merchant Algorithm部门从事业务服务开发</p>
+                </div>
+                <p><a class="btn" href="https://www.linkedin.com/profile/view?id=101816921">链接</a></p> 
+            </div>
+            <div class="span3">
+                <div class="interviewer" >
+                    <h3>Thomas Liu</h3>
+                    <i><b>Amazon</b></i><br>
+                    <img src="../images/interviewers/thomasliu.jpg" alt="Image"/>
+                    <p>包子IT面试联合创始人。现就职于亚马逊AWS组，拥有多年的large scale web services 的开发经验。</p>
+                </div>
+                <p><a class="btn" href="https://www.facebook.com/ThomasLeo1900">链接</a></p>
+             </div>
+        </div><!--end of row-->
+
+    <hr>
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; Baozi Training, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
-    </div><!-- /.container -->
+    </div><!--end of container marketing-->
+    <!--/div--><!-- /.container -->
 
 
 
