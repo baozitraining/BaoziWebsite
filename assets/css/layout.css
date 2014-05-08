@@ -87,15 +87,15 @@
       top: 0;
       left: 0;
       min-width: 100%;
-      height: 440px;
+      height: 400px;
     }
 
     .carousel-caption {
       background-color: transparent;
       position: static;
-      max-width: 600px;
+      max-width: 650px;
       padding: 0 20px;
-      margin-top: 150px;
+      margin-top: 110px;
     }
     .carousel-caption h1,
     .carousel-caption .lead {
@@ -107,8 +107,6 @@
     .carousel-caption .btn {
       margin-top: 15px;
     }
-
-
 
     /* MARKETING CONTENT
     -------------------------------------------------- */
@@ -126,6 +124,7 @@
     }
 
     .marketing .span4 .detail {
+      height:120px;
       font-family: Georgia, serif, Gadget, "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
     }
 
