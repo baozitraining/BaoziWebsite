@@ -1,3 +1,15 @@
 .interviewer {
-    height: 320px;
+    height:300px;
+}
+
+.detail-font {
+	font-family: Georgia, serif, Gadget, "Microsoft Yahei", "Hiragino Sans GB", sans-serif;	
+}
+
+.row-2 {
+	text-align:center;
+}
+
+.btn {
+	font-family: Georgia, serif, Gadget, "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
 }
