@@ -254,3 +254,23 @@
       overflow: hidden; /* Vertically center images part 2: clear their floats. */
     }   
 
+	.stamp {
+		height: 30px; 
+		width: 350px; 
+		position: relative
+	}
+	.stamp span {
+		display: block; 
+		position: absolute; 
+		width: 350px;
+	}
+	.stamp img {
+		height: 75px; 
+		padding-left: 150px; 
+		padding-top: 15px; 
+		transform:rotate(-15deg);
+		-ms-transform:rotate(-15deg); 	/* IE 9 */
+		-moz-transform:rotate(-15deg); 	/* Firefox */
+		-webkit-transform:rotate(-15deg); /* Safari 和 Chrome */
+		-o-transform:rotate(-15deg);
+	}
