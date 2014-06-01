@@ -1,172 +1,243 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<title>包子IT面试培训</title>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<meta name="Robots" content="index,follow" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.tools.js"></script>
-	<script type="text/javascript" src="js/cufon-yui.js"></script>
-	<script type="text/javascript" src="js/Titillium.font.js"></script>
-	<script type="text/javascript" charset="UTF-8">
-		$(document).ready(function() { anim(); $(".scrollable").scrollable({ }); });
-	</script>
-	<script type="text/javascript" src="js/jquery.fancybox-1.3.2.pack.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$(".items a").fancybox({
-				'titlePosition'		: 'inside',
-				'overlayColor'		: '#000',
-				'overlayOpacity'	: 0.9
-			});
-		});
-	</script>
-	<script type="text/javascript" src="js/pitch.js"></script>
-	<script type="text/javascript">
-		Counter(new Date("Oct 20 2012 12:00:00 UTC"));
-		//var done_message = "特邀嘉宾，亚马逊工程师与大家分享暑期Intern面试经验！";
-		var done_message = "包子第二期学员正在努力备战面试，我们目前只接受模拟面试。第三期的学员招生时间暂定，欢迎联系我们！";
-	</script>
+<!DOCTYPE html>
+<!-- Add comment-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>包子IT面试培训</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<script type="text/javascript" src="js/google-analytics.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
-	<link rel="stylesheet" href="images/fancybox/jquery.fancybox-1.3.2.css" type="text/css" media="screen" />
-</head>
-<body>
-	<div id="content">
-	
-		<!-- top -->
-		<div id="top">
-		<h1 id="logo"><img src="images/baozilogo.png"/></h1>
-			<ul id="menu">
-				<li><a href="index.html">首页</a></li>
-				<li><a class="current" href="#">课程报名</a></li>
-				<li><a href="about.html">团队</a></li>
-				<li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">联系我们</a></li>
-			</ul>
-		</div>
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/layout.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+  </head>
 
-		<!-- /top -->
-		
-		<!-- pitch -->
-		<div id="pitch">
-			<h2 id="hello">专业，详实，有趣的课程！</h2>
-			<p id="countdown"></p>
-		</div>
-		<!-- /pitch -->
-		
-			
-		
-		<!-- main (left side) -->	
-		<div>	
-		<div id="main">
-			<a id="course1"><h3>课程1 信息分享</h3></a>
-			<p>细数当下最火热的互联网公司，帮助你了解IT求职招聘的现状，全面的讲解面试中的每一个环节：如何寻找公司？如何准备简历？如何寻找内部推荐？如何准备电话面试？如何准备onsite面试？如何negotiate offer？针对中国留学生学者的特点，讲解面试的技巧以及注意事项。</p>
-            <p>特邀嘉宾讲座，Jack Shen and Derrick Ji 与大家分享面试Intern的经验。</p>
-            <p><font color="red">时间：2014/01/15, Wed, 7:30pm。地点：<a href="https://maps.google.com/maps?q=savery+hall+university+of+washington&hnear=Savery+Hall+(SAV),+Seattle,+Washington+98105&t=m&z=16">华大 Savery Hall 156。</a>收费：免费。</font></p>
-		</div>
-		<!-- /main (left side) -->
-		
-		<!-- side -->
-		<div class="boxPoster">
-			<a href="images/baozi_poster_final.jpg"> <img src="images/BaoziPosterSmallSize.PNG"/> </a>
-		</div>
-		</div>
-<!--		<div id="side">
-			<div class="boxtop"></div>
-			<div class="boxmiddle"></div>
-			<div class="boxbottom"></div>
-			
-		</div>-->
-		<!-- /side -->
+  <body>
+
+    <!-- NAVBAR
+    ================================================== -->
+   <div class="navbar-wrapper">   
+        <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+        <div class="container">    
+
+        <div class="navbar navbar-inverse">
+        <div class="navbar-inner">      
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>  
+                <span class="icon-bar"></span>  
+                <span class="icon-bar"></span>  
+            </button>          
         
-		<!-- main (left side) -->		
-		<div id="main">
-			<a id="course2"><h3>课程2 真题详解</h3></a>
-            <p>分为两个session。细致梳理面试必须掌握的数据结构与基本算法，面试真题一题多解，帮助你了解面试官考察的方位，避免面试者常犯的错误，使你用最少的时间，高效的完成面试的前期准备。</p>
-            <p>Session 1: 主要讲解基本的数据结构和算法, Array, List, HashMap, Tree and Graphs. </p>
-            <p>时间：2014/01/18 2-4pm. 地点：<a href="https://maps.google.com/maps?q=15571+NE+31st+St,+Redmond,+WA&hl=en&sll=47.613028,-122.342064&sspn=0.278196,0.707932&hnear=15571+NE+31st+St,+Redmond,+Washington+98052&t=m&z=16">微软41楼</a>。收费：$20/session.</p>
-            <p>Session 2: 主要讲解基本的算法，Dynamic programming, String manipulation, Recursion.</p>
-            <p>时间：2014/01/19 2-4pm. 地点：<a href="https://maps.google.com/maps?q=333+Boren+Ave+N,+Seattle,+WA&hl=en&sll=47.637743,-122.133488&sspn=0.00869,0.022123&oq=333&hnear=333+Boren+Ave+N,+Seattle,+Washington+98109&t=m&z=16">亚马逊Ruby</a>。收费：$20/session.</p>
-			
-            
-           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-           <input type="hidden" name="cmd" value="_s-xclick">
-           <input type="hidden" name="hosted_button_id" value="BX3YCSREE844G">
-           <table>
-           <tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
-           	<option value="Full package">Full package $99.00 USD</option>
-           		<option value="Interview only">Interview only $79.00 USD</option>
-           			<option value="Session 1 only">Session 1 only $20.00 USD</option>
-           				<option value="Session 2 only">Session 2 only $20.00 USD</option>
-           				</select> </td></tr>
-           				</table>
-           				<input type="hidden" name="currency_code" value="USD">
-           				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-           				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-           				</form>
+            <a class="brand" href="#"><img src="images/baozilogo_mini.png"/></a>
+                <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+                <div class="nav-collapse collapse">
+                    <ul class="nav">     
+                    <li><a href="beta/index.html">首页</a></li>
+                    <li class="active"><a href="course.html">课程报名</a></li>
+                    <li><a href="about.html">团队</a></li>
+                    <li><a href="students.html">学员评价</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="video.html">视频</a></li>
+                    <li><a href="http://blog.baozitraining.org/">博客</a></li>
+                    <li><a href="contact.html">联系我们</a></li>    
+                    </ul>
+                </div><!--/.nav-collapse -->    
+          </div><!-- /.navbar-inner -->   
+        </div><!-- /.navbar -->
+        </div> <!-- /.container -->     
+    </div><!-- /.navbar-wrapper --> 
+    
 
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item">
+          <img src="images/backgroud/Golden_Park.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>准备面试，包子和你在一起</h1>
+              <p class="lead">『IT面试这点事儿』校园行第三期，与你相约华大!</p>
+              <p class="lead">UW Architecture Hall (ARC) 160, June 5 (Thur) 7pm </p>
+              <a class="btn btn-large btn-primary" href="video.html">详情</a>
+            </div>
+          </div>
+        </div>
+        <div class="item active">
+          <img src="images/backgroud/Seattle_Downtown.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>最专业，最靠谱，最真实的1对1模拟面试</h1>
+              <p class="lead">国际体验版，极速反馈版，总有一款适合你!</p>
+              <p class="lead">Online，Offline，距离不再是问题!</p>
+              <a class="btn btn-large btn-primary" href="course.html">报名</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/backgroud/Space_needle.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>轻松，活跃，乐于分享的学习氛围</h1>
+              <p class="lead">听听包子学员的心声，一起加入吧！</p>
+              <a class="btn btn-large btn-primary" href="students.html">学员评价</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <div class="container marketing detail-font">
+        <div class="row">
+        	<div class="span6"> 
+        	<h3>极速反馈版</h3> 
+        		<p><li><strong>全华人面试官阵容，面试经验丰富</strong></li></p>
+        		<p><li><strong>1对1面试，支持online, offline</strong></li></p>
+        		<hr>
+           		<p><li>极为了解中国学生的准备水平，题目针对性强</li></p>
+            	<p><li>深入准确面试反馈帮你查缺补漏，迅速提升面试状态</li></p>
+            	<p><li>极速的面试预订、安排及反馈</li></p>
+            	<div class="stamp">
+            		<span>
+            			<p><li>Option 1: 面对面模拟面试服务，面试地点限西雅图</li></p>
+            			<p><li>Option 2: Online模拟面试服务，无地区限制</li></p></span>
+            		<img src="images/stamp/promotion.png" alt="特价优惠" style="padding-left: 230px;"/>
+            	</div>
+                     
+            	<!-- paypal -->
+            	<hr>           	
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="BX3YCSREE844G">
+                <table>
+                <tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
+                    <option value="&#26497;&#36895;&#21453;&#39304;&#29256;&#29305;&#20215;">&#26497;&#36895;&#21453;&#39304;&#29256;&#29305;&#20215; $99.00 USD</option>
+                    <option value="&#22269;&#38469;&#20307;&#39564;&#29256;">&#22269;&#38469;&#20307;&#39564;&#29256; $199.00 USD</option>
+                    <option value="&#23478;&#25945;&#22522;&#30784;&#29677;&#27599;&#23567;&#26102;">&#23478;&#25945;&#22522;&#30784;&#29677;&#27599;&#23567;&#26102; $50.00 USD</option>
+                </select> </td></tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+            </div>
+        	<div class="span6">
+            	<h3>国际体验版</h3>
+            	<p><li><strong>至少一位非华人工程师的面试阵容 </strong></li></p>
+        		<p><li><strong>1对1面试，支持online, offline</strong></li></p>
+            	<hr>
+            	<p><li>直接考验你的英文交流能力</li></p>
+            	<p><li>多样化的面试官风格，检验你的适应能力和应变能力</li></p>
+            	<p><li>独一无二的模拟面试体验</li></p>
+            		
+            		<div class="stamp">
+            			<span><p><li>Option 1: 面对面模拟面试服务，面试地点限西雅图</li></p>
+            				<p><li>Option 2: Online模拟面试服务，无地区限制 </li></p>
+            			</span>
+            		</div>
+            	<!-- paypal -->
+            	<hr>
+
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="538YRN6AFA58E">
+                <table>
+                <tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
+                    <option value="&#22269;&#38469;&#20307;&#39564;&#29256;">&#22269;&#38469;&#20307;&#39564;&#29256; $199.00 USD</option>
+                    <option value="&#26497;&#36895;&#21453;&#39304;&#29256;&#29305;&#20215;">&#26497;&#36895;&#21453;&#39304;&#29256;&#29305;&#20215; $99.00 USD</option>
+                    <option value="&#23478;&#25945;&#22522;&#30784;&#29677;&#27599;&#23567;&#26102;">&#23478;&#25945;&#22522;&#30784;&#29677;&#27599;&#23567;&#26102; $50.00 USD</option>
+                </select> </td></tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+            </div>
             
-		</div>
-		<!-- /main (left side) -->
-        <!-- side -->
-<!--		<div id="side">
-			<div class="boxtop"></div>
-			<div class="boxmiddle"></div>
-			<div class="boxbottom"></div>
-			
-		</div>-->
-		<!-- /side -->
+        </div>
         
-		<!-- main (left side) -->		
-		<div id="main">
-			<a id="course3"><h3>课程3 模拟面试</h3></a>
-			<p>面试最大的苦恼之一就是得不到任何有效的feedback，有些时候很多朋友觉得自己的表现都很不错，结果还是没有能够拿到offer。事实上，如果不知道自己面试时的问题和不足，提高就无从谈起，更多的面试也只是重复失败的经历而已。我们模拟面试的所有面试官(主体中国工程师，少量印度工程师和美国工程师)均来自业界顶级公司，有着丰富的面试与debrief的经验。他们会根据自身经验，结合面试者的表现，提供一份详实的feedback，帮助面试者到自己的不足之处，从而为真正的面试做好准备，争取拿到理想的offer！</p>
-            <p>模拟面试包括一次phone screen和两次onsite interview。所有的面试均为一对一，真实场景，除了面试之外，同时也是一次难能可贵的与一线公司工程师交流认识的机会。</p>
-            <p>时间：与面试者商议。课时：4个小时，包括3个45分钟的面试（15分钟break）以及一个小时的feedback debrief。地点：待定。收费：$79/pack</p>
-			
-            
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BX3YCSREE844G">
-<table>
-<tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
-	<option value="Full package">Full package $99.00 USD</option>
-		<option value="Interview only">Interview only $79.00 USD</option>
-			<option value="Session 1 only">Session 1 only $20.00 USD</option>
-				<option value="Session 2 only">Session 2 only $20.00 USD</option>
-				</select> </td></tr>
-				</table>
-				<input type="hidden" name="currency_code" value="USD">
-				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-				</form>
+        <hr>
+        <div class="row">
+            <div class="span12">
+                    <h3><a name="tutor">“家教式服务”基础提高班</a></h3>
+                    <p><li><strong>我们深知面试的不易，只有为你量身定制，才能更好地帮助你 </strong></li></p>
+                    <hr>
+                    <p><li>针对每一位学员的准备程度，定制课程，有的放矢</li></p>
+                    <p><li>深入讲解面试常用的数据结构, Array, List, Tree, Queue, Stack, Map, Heap, Graph, etc</li></p>
+                    <p><li>深入讲解常用算法，Search, Dynamic Programming, Greedy, BFS, DFS, Recursion, etc</li></p>
+                    <p><li>广泛概况设计题目，熟练掌握常用Design Pattern, Singleton, Listerner, Factory, Decorator, etc</li></p>
+                    <p><li>与业界工程师建立良好的沟通平台，定期讨论最前沿的技术, Big Data, No Sql, Distributed System, Mobile, etc</li><p>    
+                    <!-- paypal -->
+                    <hr>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="TLXKKNMGGWTLA">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
+                        <option value="&#23478;&#25945;&#22522;&#30784;&#29677;&#27599;&#23567;&#26102;">&#23478;&#25945;&#22522;&#30784;&#29677;&#27599;&#23567;&#26102; $50.00 USD</option>
+                        <option value="&#26497;&#36895;&#21453;&#39304;&#29256;&#29305;&#20215;">&#26497;&#36895;&#21453;&#39304;&#29256;&#29305;&#20215; $99.00 USD</option>
+                        <option value="&#22269;&#38469;&#20307;&#39564;&#29256;">&#22269;&#38469;&#20307;&#39564;&#29256; $199.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
 
-            
-            
-		</div>
-		<!-- /main (left side) -->
-		<!-- side -->
-<!--		<div id="side">
-			<div class="boxtop"></div>
-			<div class="boxmiddle"></div>
-			<div class="boxbottom"></div>
-			
-		</div>-->
-		<!-- /side -->
-		
-		<!-- footer -->
-		<div id="footer">
-<p>&copy; 2013 <a href="#">包子培训</a> &middot; All Rights Reserved &middot; <a href="term.html">Term & Disclaimer</a> &middot;<script id="_waunmu">var _wau = _wau || []; _wau.push(["small", "bh52kicvms3p", "nmu"]);
-			(function() {var s=document.createElement("script"); s.async=true;
-			s.src="http://widgets.amung.us/small.js";
-			document.getElementsByTagName("head")[0].appendChild(s);
-			})();</script></p>
-		</div>
-		<!-- /footer -->
-	</div>
-</body>
+            </div>
+            </div>
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; Baozi Training, Inc. &middot; <a href="term_disclaimer.html">Terms & Disclaimer</a> &middot;<script id="_waunmu">var _wau = _wau || []; _wau.push(["small", "bh52kicvms3p", "nmu"]);
+(function() {var s=document.createElement("script"); s.async=true;
+s.src="http://widgets.amung.us/small.js";
+document.getElementsByTagName("head")[0].appendChild(s);
+})();</script></p>
+      </footer>
+
+    </div><!--end of container marketing-->
+    <!--/div--><!-- /.container -->
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="js/google-analytics.js"></script>
+
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    <!-- script src="assets/js/holder/holder.js"></script!-->
+  </body>
 </html>
+
