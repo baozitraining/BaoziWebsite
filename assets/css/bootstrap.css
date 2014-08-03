@@ -617,6 +617,8 @@ a:focus {
 .container {
   margin-right: auto;
   margin-left: auto;
+  margin-top:auto;
+  margin-bottom:auto;
   *zoom: 1;
 }
 
@@ -765,7 +767,7 @@ h3 {
 }
 
 h1 {
-  font-size: 38.5px;
+  font-size: 34px;
 }
 
 h2 {
@@ -5221,7 +5223,8 @@ input[type="submit"].btn.btn-mini {
 }
 
 .modal.fade {
-  top: -25%;
+  /*top: -25%;*/
+  top: -100%;
   -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
      -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
        -o-transition: opacity 0.3s linear, top 0.3s ease-out;
@@ -5972,7 +5975,7 @@ a.badge:focus {
 
 .carousel {
   position: relative;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   line-height: 1;
 }
 
@@ -5980,6 +5983,7 @@ a.badge:focus {
   position: relative;
   width: 100%;
   overflow: hidden;
+  height:300px;
 }
 
 .carousel-inner > .item {
