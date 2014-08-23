@@ -1,0 +1,5 @@
+baozi_student_callback({"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-124.4685,40.3087]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-118.8765,37.5138]}},	
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.5467194,43.4822185]}}],
+"bbox":[-179.463,-60.7674,-2.9,178.4321,67.0311,609.13]});
