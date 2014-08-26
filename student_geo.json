@@ -1,5 +1,34 @@
 baozi_student_callback({"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-124.4685,40.3087]}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-118.8765,37.5138]}},	
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.5467194,43.4822185]}}],
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.4358423, 47.714848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-124.5358423, 47.814848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-124.6358423, 47.914848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.7358423, 48.014848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-124.8358423, 48.114848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-124.9358423, 46.214848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-123.0358423, 48.314848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-123.1358423, 46.414848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.2358423, 46.514848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-123.3358423, 46.614848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.4358423, 46.714848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.5358423, 45.814848]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.6358423, 46.914848]}},
+
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.5467194,43.4822185]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-81.5467194,44.4822185]}},
+
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-76.473503,42.453449]}},	
+
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.3974589,40.9388838]}},	
+{"type":"Feature","geometry":{"type":"Point","coordinates":[117.3974589,39.9388838]}},	
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.3974589,41.9388838]}},	
+
+{"type":"Feature","geometry":{"type":"Point","coordinates":[121.4767528,31.2243489]}},	
+
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.942553,40.442492]}},	
+
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-121.8174129,37.2970155]}},	
+
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-74.7311156,40.1430241]}},	
+
+],
 "bbox":[-179.463,-60.7674,-2.9,178.4321,67.0311,609.13]});
