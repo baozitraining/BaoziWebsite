@@ -4,7 +4,6 @@
   <head>
     <meta charset="utf-8">
     <title>包子IT面试培训</title>
-    <link rel="shortcut icon" href="images/fav.png" type="image/png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="提供最真实的北美计算机1对1模拟面试服务，1对1家教式基础提高班。 Providing the best 1 on 1 mock interview and tutor classes for top IT companies in the US.">
     <meta name="keywords" content="计算机面试，算法提高，北美找工作， CS job hunting, CS mock interview">
@@ -123,13 +122,6 @@
         <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">继续阅读</button>
       </div>
 
-
-      <div class="row">
-        <!-- Google Map -->
-        <div id="map-canvas" style="height: 450px"></div>
-      </div><!-- /.row -->
-
-
       <!-- /END THE students feedback -->
         <hr>
 
@@ -196,7 +188,7 @@ document.getElementsByTagName("head")[0].appendChild(s);
 </div>
 </footer>
 
-
+</div>
 
     <!-- Le javascript
     ================================================== -->
@@ -215,149 +207,6 @@ document.getElementsByTagName("head")[0].appendChild(s);
     <script src="assets/js/bootstrap-carousel.js"></script>
     <script src="assets/js/bootstrap-typeahead.js"></script>
     <script type="text/javascript" src="js/google-analytics.js"></script>
-
-    <style>
-      html, body, #map-canvas {
-        height: 100%;
-        margin: 2%;
-        padding: 2%
-      }
-    </style> 
-
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script src="js/infobox.js"></script>
-    <script>
-      var map;
-      var lastOpenedInfoBox = null;
-      // Default to Seattle
-      var seattle = new google.maps.LatLng(47.6183248,-122.3394246);
-    
-      var mapOptions = {
-        zoom: 10,
-        center: seattle,
-        streetViewControl: false
-      };
-      function initialize() {
-        map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);  
-        
-
-
-        var myOptions = {
-         disableAutoPan: false
-         ,maxWidth: 0
-         ,pixelOffset: new google.maps.Size(-140, 0)
-         ,zIndex: null
-         ,boxStyle: { 
-           background: "url('http://www.garylittle.ca/map/artwork/tipbox.gif') no-repeat"
-           ,opacity: 1
-           ,width: "280px"
-          }
-         ,closeBoxMargin: "10px 2px 2px 2px"
-         ,closeBoxURL: "https://www.google.com/intl/en_us/mapfiles/close.gif"
-         ,infoBoxClearance: new google.maps.Size(1, 1)
-         ,isHidden: false
-         ,pane: "floatPane"
-         ,enableEventPropagation: false
-       };
-
-       addLocations();   
-
-       function addLocations(){
-          {
-            var boxText = '<div class="lead" style="background: white;">';
-                boxText += "University of Washington<br>Seattle<br>United Stated";
-                boxText += "</div>";
-            
-            myOptions.content = boxText;
-            var ib1= new InfoBox(myOptions);
-  
-            var locationLatLng1 = new google.maps.LatLng(47.6550,-122.3080);
-            var marker1 = new google.maps.Marker({
-              position: locationLatLng1,
-              map: map,
-              title: 'University of Washington',
-              
-              icon: 'https://maps.google.com/mapfiles/ms/icons/yellow-dot.png'
-              
-            });
-  
-            google.maps.event.addListener(marker1, 'click', function() {
-              ib1.open(map,marker1);
-              if (lastOpenedInfoBox) {
-                lastOpenedInfoBox.close();
-              }
-              lastOpenedInfoBox = ib1;
-            });
-          }
-
-          {
-            var boxText = '<div class="lead" style="background: white;">';
-                boxText += "Amazon Office<br>Seattle<br>United Stated";
-                boxText += "</div>";
-            
-            myOptions.content = boxText;
-            var ib2= new InfoBox(myOptions);
-  
-            var locationLatLng2 = new google.maps.LatLng(47.621327,-122.336208);
-            var marker2 = new google.maps.Marker({
-              position: locationLatLng2,
-              map: map,
-              title: 'Amazon Office',
-              
-              icon: 'https://maps.google.com/mapfiles/ms/icons/yellow-dot.png'
-              
-            });
-  
-            google.maps.event.addListener(marker2, 'click', function() {
-              ib2.open(map,marker2);
-              if (lastOpenedInfoBox) {
-                lastOpenedInfoBox.close();
-              }
-              lastOpenedInfoBox = ib2;
-            });
-          }
-          
-
-          {
-            var boxText = '<div class="lead" style="background: white;">';
-                boxText += "Microsoft Office<br>Seattle<br>United Stated";
-                boxText += "</div>";
-            
-            myOptions.content = boxText;
-            var ib3= new InfoBox(myOptions);
-  
-            var locationLatLng3 = new google.maps.LatLng(47.660766,-122.144665);
-            var marker3 = new google.maps.Marker({
-              position: locationLatLng3,
-              map: map,
-              title: 'Microsoft Office',
-              
-              icon: 'https://maps.google.com/mapfiles/ms/icons/yellow-dot.png'
-              
-            });
-  
-            google.maps.event.addListener(marker3, 'click', function() {
-              ib3.open(map,marker3);
-              if (lastOpenedInfoBox) {
-                lastOpenedInfoBox.close();
-              }
-              lastOpenedInfoBox = ib3;
-            });
-          }
-  
-        }
-   
-      }
-     
-
-      google.maps.event.addDomListener(window, 'load', initialize);
-
-
-
-      
-
-      
-    </script>
 
     <script>
       !function ($) {
