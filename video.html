@@ -69,8 +69,8 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>准备面试，包子和你在一起</h1>
-              <p class="lead">『IT面试这点事儿』校园行第四期，与你相约华大!</p>
-              <p class="lead">Oct 12, 2014 (Sunday) 3pm-5pm, @UW Sav Hall 264</p>
+              <p class="lead">『IT面试这点事儿』校园行第四期，与你相约华大, 网上同步直播！</p>
+              <p class="lead">Oct 12, 2014 (Sunday) 3pm-5pm, @Univ of Washington, Sav Hall 264</p>
               <a class="btn btn-large btn-primary" href="video.html">详情</a>
             </div>
           </div>
@@ -104,7 +104,7 @@
 
 
     <div class="container">
-        <h3>欢迎参加『IT面试这点事儿』校园行第三期！</h3>
+        <font color="red" id="blink" size="+1"><b><h3>欢迎参加『IT面试这点事儿』校园行第四期！</h3></b></font></a>
         <blockquote>
             <p>
             时间：Oct 12, 2014 (Sun) 3pm to 5pm. <a target="_blank" href=""><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
@@ -114,6 +114,9 @@
             内容：亚马逊，微软，Google，Facebook，Groupon等工程师为你详细介绍IT面试的现状，流程和技巧。帮助你早日拿到offer！
             <br>
             特邀嘉宾，<a href="http://nicksnettravels.builttoroam.com/post/2008/07/06/Imagine-Cup-2008-Australia-makes-the-Finals.aspx">Microsoft Imagine Cup 2008 冠军</a> Leon Liu也会与大家分享经验。
+
+            <br>
+            网上同步直播：请使用Google Hangout加入baozitrainingblog@gmail.com
             </p>
         </blockquote>
     </div>
@@ -254,6 +257,15 @@ document.getElementsByTagName("head")[0].appendChild(s);
             })
         }(window.jQuery)
     </script>
+    <script language="javascript">
+        function changeColor(){
+        //var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+        var color="red|yellow|green|blue|gray|orange|purple|pink|brown";
+        color=color.split("|");
+        document.getElementById("blink").style.color=color[parseInt(Math.random() * color.length)];
+        }
+        setInterval("changeColor()",250);
+    </script> 
     <!-- script src="assets/js/holder/holder.js"></script!-->
 </body>
 </html>
