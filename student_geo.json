@@ -31,6 +31,11 @@ baozi_student_callback({"type":"FeatureCollection","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-74.7311156,40.1430241]}},	
 
 {"type":"Feature","geometry":{"type":"Point","coordinates":[-105.086547,40.573436]}},
+
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.996461,40.729513]}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-74.996461,41.729513]}},
+
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-123.279444,44.563781]}},
 	
 ],
 "bbox":[-179.463,-60.7674,-2.9,178.4321,67.0311,609.13]});
